@@ -15,7 +15,7 @@
     <packaging>karaf-assembly</packaging>
 
     <name>distribution</name>
-    <description>premade karaf distribution with out greeting feature</description>
+    <description>premade Karaf distribution without greeting feature</description>
 
     <dependencies>
         <dependency>
