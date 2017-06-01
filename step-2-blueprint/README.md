@@ -55,12 +55,16 @@ services.
     * `ref` optional attribute declaring which bean is being exported. If not declared, then the service
     must define the bean inside itself
     * `interface` attribute for which this service exports under
+    * `service-properties` element that specifies key-value pairs for this service. Used when filtering.
 ```xml
 <blueprint>
     ...
     <service ref="example" interface="com.example.SomeInterface"/>
     <service interface="com.example.SomeInterface">
         <bean class="com.example.SomeClass"/>
+        <service-properties>
+            <entry key="key" value="value"/>
+        </service-properties>
     </service> 
 </blueprint>
 ```
