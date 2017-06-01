@@ -90,3 +90,7 @@ services.
     <reference-list id="filteredListOfServices" interface="com.example.SomeInterface" filter="(someProperty=someValue)"/>
 </blueprint>
 ```
+
+[Learn More]
+
+[Learn More]: <http://aries.apache.org/modules/blueprint.html>

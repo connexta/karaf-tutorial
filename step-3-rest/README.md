@@ -94,3 +94,10 @@ authentication interceptor or a logging feature.
     </jaxrs:serviceBeans>
 </jaxrs:server>
 ```
+
+[Learn More About JAX-RS]
+
+[Learn More About CXF]
+
+[Learn More About JAX-RS]: <https://www.tutorialspoint.com/restful/restful_jax_rs.htm>
+[Learn More About CXF]: <http://cxf.apache.org/>
