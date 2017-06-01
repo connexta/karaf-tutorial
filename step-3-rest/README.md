@@ -28,11 +28,11 @@
 1. Specify a private Greeting interface variable and pass it into the public constructor as a parameter. 
 
     * ```java
-            private Greeting greetingService;
+        private Greeting greetingService;
         
-            public GreetingRest(Greeting greetingService) {
-                this.greetingService = greetingService;
-            } 
+        public GreetingRest(Greeting greetingService) {
+            this.greetingService = greetingService;
+        } 
        ```
 2. Specify JAX-RS standards
 
