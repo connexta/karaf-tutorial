@@ -6,6 +6,6 @@
         <feature prerequisite="false" dependency="false">http-whiteboard</feature>
         <bundle>mvn:com.connexta/greeting-api/1.0-SNAPSHOT</bundle>
         <bundle>mvn:com.connexta/greeting-impl/1.0-SNAPSHOT</bundle>
-        <bundle>mvn:com.connexta/greeting-rest-proxy/1.0-SNAPSHOT</bundle>
+        <bundle>mvn:com.connexta/greeting-rest-webservice/1.0-SNAPSHOT</bundle>
     </feature>
 </features>

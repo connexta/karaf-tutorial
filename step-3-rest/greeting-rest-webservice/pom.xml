@@ -11,10 +11,10 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>greeting-rest-proxy</artifactId>
+    <artifactId>greeting-rest-webservice</artifactId>
     <packaging>bundle</packaging>
 
-    <name>greeting-rest-proxy</name>
+    <name>greeting-rest-webservice</name>
     <description>rest proxy for the greeting service</description>
 
     <dependencies>
