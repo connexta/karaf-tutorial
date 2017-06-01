@@ -26,7 +26,7 @@
   use: `feature:install greeting-feature`. You can use `display` in Karaf to verify that the feature 
   was installed.
   
- ##Enabling Maven Plugin
+ ## Enabling Maven Plugin
  
  1. Open Preferences in IntelliJ
  2. Navigate to Plugins and search for Maven Helper and Maven Integration. Ensure that both are installed and active and click Apply.
