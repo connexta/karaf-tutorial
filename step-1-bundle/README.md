@@ -128,3 +128,7 @@ When a bundle is installed it is copied to a cache and is always loaded from the
     * `--stop` to stop the specified bundles
     * `--remove` to remove the specified bundles
     * `--list` to show the currently watched bundles
+
+[Learn More]
+
+[Learn More]: <https://www.osgi.org/developer/architecture/>
