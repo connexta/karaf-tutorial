@@ -9,11 +9,11 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>greeting-api</module>
-        <module>greeting-impl</module>
-        <module>greeting-feature</module>
-        <module>greeting-rest-proxy</module>
-        <module>distribution</module>
+        <module>step-1-bundle</module>
+        <module>step-2-blueprint</module>
+        <module>step-3-rest</module>
+        <module>step-4-feature</module>
+        <module>step-5-distribution</module>
     </modules>
 
     <properties>
