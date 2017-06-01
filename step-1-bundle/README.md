@@ -100,14 +100,14 @@ To change any of these values just add them to the plugins `configuration/instru
 </plugin>
 ```
 
-#### How to install a bundle in karaf
+## How to install a bundle in karaf
 * `bundle:install file://{bundle_folder}/filename.jar`
 * `bundle:install mvn:{group ID}/{artifact ID}/{version}`
 * Copy the JAR file to Karaf's `deploy` directory
 
 When a bundle is installed it is copied to a cache and is always loaded from the cache. 
 
-#### Preferred to install a bundle
+### Preferred to install a bundle
 * Use the Maven address
 
 ## Karaf Shell 
