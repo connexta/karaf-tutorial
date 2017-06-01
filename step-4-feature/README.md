@@ -25,4 +25,14 @@
   4. To install the feature use the command: `feature:install <feature-name>`. For this example we 
   use: `feature:install greeting-feature`. You can use `display` in Karaf to verify that the feature 
   was installed.
+  
+ ##Enabling Maven Plugin
+ 
+ 1. Open Preferences in IntelliJ
+ 2. Navigate to Plugins and search for Maven Helper and Maven Integration. Ensure that both are installed and active and click Apply.
+ 3. Right click any module and you will now have an option to Run Maven on that module.
+ 
+ [Learn More](https://karaf.apache.org/manual/latest/provisioning)
+ 
+ 
    
