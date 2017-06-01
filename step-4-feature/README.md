@@ -26,6 +26,10 @@ is the version, the fifth is the repository. For example, the greeting-feature r
 use: `feature:install greeting-feature`. You can use `display` in Karaf to verify that the feature 
 was installed.
    
-[Learn More]
+##Enabling Maven Plugin
+   
+1. Open Preferences in IntelliJ
+2. Navigate to Plugins and search for Maven Helper and Maven Integration. Ensure that both are installed and active and click Apply.
+3. Right click any module and you will now have an option to Run Maven on that module.
 
-[Learn More]: <http://karaf.apache.org/manual/latest/#_provisioning>
+[Learn More](http://karaf.apache.org/manual/latest/#_provisioning)
