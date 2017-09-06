@@ -13,12 +13,12 @@ For example, `http://localhost:8181/cxf/greeting/hello/joseph` will return "*Hel
 
 # Setup
 First, clone this repository:
-`git clone https://github.com/AzGoalie/connexta-karaf-tutorial/`
+`git clone https://github.com/connexta/karaf-tutorial/`
 
-Then, `cd` into **connexta-karaf-tutorial** and run `mvn install`. 
+Then, `cd` into **karaf-tutorial** and run `mvn install`. 
 
 This will build the project and place a zip folder here:
-**connexta-karaf-tutorial/distribution/target**
+**karaf-tutorial/distribution/target**
 
 Change your directory to **target** and unzip the folder with `unzip distribution-1.0-SNAPSHOT.zip`
 
