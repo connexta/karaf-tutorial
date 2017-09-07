@@ -1,4 +1,6 @@
-## Instructions
+## Part 1 Instructions
+
+#### Get started. Create a project and a Java interface
 
 1. Create new project
    1. Open IDE (IntelliJ)
@@ -13,6 +15,7 @@
    1. Add a new module called **api**
    1. Open the module and add a Java `interface` named `Greeting`
    1. Define one method for the interface. The method should be named `hello`, accept a `String` as a parameter and return a `String`
+   1. Do not leave the interface in the default package. OSGi relies heavily on package names. Use the `package` directive to make the interface part of a real package. For simplicity, use the package name `api`.
    
 1. Update the Project Object Model (POM.xml) for the module
    1. Add the `maven-bundle-plugin` to generate the OSGi manifest headers
@@ -21,12 +24,11 @@
 1. Execute a `mvn install` to build the bundle. Look for warnings and errors in the output.
    
 
-
 Let's review what we did.
-- Created a Java inteface. big whoop
+- Created a Java interface. Big whoop.
 - Added the maven bundle plugin
 - Used maven to create the bundle (e.g. `target/api-1.0-SNAPSHOT`)
-
+WORKSHOP-INSTRUCTIONS-PART-1.md
 Let's take a quick look at the instructions to the maven bundle plugin:
 
 
