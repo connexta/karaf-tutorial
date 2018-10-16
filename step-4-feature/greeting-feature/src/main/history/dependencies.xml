@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features xmlns="http://karaf.apache.org/xmlns/features/v1.5.0" name="greeting-feature-1.0-SNAPSHOT">
     <feature version="0.0.0">
+        <feature>aries-blueprint</feature>
         <feature>cxf-jaxrs</feature>
         <feature>http</feature>
-        <feature>http-whiteboard</feature>
         <bundle>mvn:com.connexta/greeting-api/1.0-SNAPSHOT</bundle>
         <bundle>mvn:com.connexta/greeting-impl/1.0-SNAPSHOT</bundle>
         <bundle>mvn:com.connexta/greeting-rest-webservice/1.0-SNAPSHOT</bundle>
